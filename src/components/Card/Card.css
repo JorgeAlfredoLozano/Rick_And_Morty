@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.card-container {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 18px 18px 30px rgba(87, 87, 90, 0.9);
+  padding: 10px;
+  width: 250px;
+  height: 400px;
+  margin: 10px;
+  background-image: url('../../assets/fondo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+.card-id {
+  color: rgb(0, 0, 0);
+  border: 2px solid beige;
+  background-color: beige;
+  border-radius: 50%;
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+  margin: 47px auto 0;
+  padding: 5px;
+  line-height: 10px;
+  text-align: center;
+  font-family: 'Creepster', cursive;
+}
+
+
+
+img {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  margin-top: 56px;
+}
+
+
+.card-heading {
+  font-family: 'Creepster', cursive;
+  
+  font-size: 20px;
+  color: #000000;
+  line-height: 0.3;
+  -webkit-text-stroke: 0.5px rgb(168, 164, 164);
+  text-stroke: 1px rgb(255, 255, 255);
+  /* text-shadow: 2px 2px 4px rgba(245, 245, 245, 2.5); */
+}
+
+.close-button {
+  background-color: #e01818;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: -10px;
+  margin-left: 225px;
+}

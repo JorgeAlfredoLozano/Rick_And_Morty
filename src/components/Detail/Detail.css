@@ -1,0 +1,61 @@
+.detail-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.character-info {
+    width: 50%;
+    text-align: left;
+}
+
+.character-image {
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.character-image img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 150px;
+}
+.character-image:hover {
+    border-radius: 0;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    border-radius: 150px;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+.bold-text {
+    font-weight: bold;
+}
+
+
+.comic-text {
+    font-family: "Comic Sans MS", cursive;
+    color: red;
+    font-size: 22px;
+}

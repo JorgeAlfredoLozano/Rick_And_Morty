@@ -1,0 +1,24 @@
+.nav-container {
+    background-color: #333;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav-container button {
+    margin: 0 10px;
+  }
+  
+  .nav-container .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  
+  .nav-container .search-container input {
+    margin-right: 10px;
+  }
+  
+  
