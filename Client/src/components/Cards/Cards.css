@@ -1,0 +1,73 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+html, body {
+  height: 78%;
+}
+
+body {
+  font-family: 'Creepster', cursive;
+  background-image: url('../../assets/background.png');
+  background-size: cover;
+  background-position: center;  
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font: 'Creepster', cursive;;
+  height: 120vh; /* Establece la altura del contenedor a la altura de la pantalla */
+  margin-top: -160px;
+  align-items: center; 
+  }
+  .card {
+    /* other styles */
+    margin-right: 16px;
+  }
+  .first-card {
+    margin-left: 0;
+  }
+  .cards-container {
+    position: center;
+    overflow: hidden;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-controls {
+    display: -webkit-inline-flex;
+    /* justify-content: center; */
+    margin-left: 50%;
+    margin-top: 150px;
+    
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    /* margin: 0 10px; */
+    cursor: pointer;
+    outline: none;
+    color: gray;
+    
+  }
+  
+  .carousel-control:disabled {
+    color: #ccc;
+    cursor: default;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .card-empty {
+    visibility: hidden;
+  }
+  
+  .close-button {
+    display: flex;
+    margin-left: 0px;
+  }
