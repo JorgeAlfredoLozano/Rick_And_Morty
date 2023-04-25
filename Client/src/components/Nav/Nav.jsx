@@ -29,7 +29,7 @@ const Nav = ({ onSearch, logOut }) => {
         </button>
       </div>
 
-      <hr />
+     
     </nav>
   );
 };
